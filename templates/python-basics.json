@@ -1,0 +1,140 @@
+{
+  "name": "python-basics",
+  "category": "programming",
+  "difficulty": "beginner",
+  "title": "Python Programming Basics",
+  "description": "Learn Python from scratch with hands-on projects and exercises",
+  "estimatedHours": 40,
+  "structure": {
+    "milestones": [
+      {
+        "title": "Week 1-2: Python Fundamentals",
+        "description": "Master basic syntax, data types, and control flow",
+        "order": 1,
+        "tasks": [
+          {
+            "title": "Install Python and set up VS Code",
+            "description": "Install Python 3.11+, VS Code, and essential extensions",
+            "type": "practice",
+            "estimatedMinutes": 30,
+            "difficulty": "easy",
+            "resources": [
+              { "title": "Python Official Download", "url": "https://python.org/downloads" },
+              { "title": "VS Code Python Setup", "url": "https://code.visualstudio.com/docs/python/python-tutorial" }
+            ]
+          },
+          {
+            "title": "Variables and Data Types",
+            "description": "Practice with strings, numbers, lists, dictionaries",
+            "type": "exercise",
+            "estimatedMinutes": 60,
+            "difficulty": "easy",
+            "resources": [
+              { "title": "Python Tutorial", "url": "https://docs.python.org/3/tutorial/" }
+            ]
+          },
+          {
+            "title": "Control Flow: if/else, loops",
+            "description": "Write programs using conditionals and loops",
+            "type": "practice",
+            "estimatedMinutes": 90,
+            "difficulty": "medium"
+          },
+          {
+            "title": "Project: Number Guessing Game",
+            "description": "Build an interactive game using random, input, and loops",
+            "type": "project",
+            "estimatedMinutes": 120,
+            "difficulty": "medium"
+          }
+        ]
+      },
+      {
+        "title": "Week 3-4: Functions and Modules",
+        "description": "Write reusable code and organize projects",
+        "order": 2,
+        "tasks": [
+          {
+            "title": "Functions and Parameters",
+            "description": "Define functions, use arguments, return values",
+            "type": "practice",
+            "estimatedMinutes": 60,
+            "difficulty": "medium"
+          },
+          {
+            "title": "Built-in Functions and Libraries",
+            "description": "Explore math, random, datetime modules",
+            "type": "reading",
+            "estimatedMinutes": 45,
+            "difficulty": "easy"
+          },
+          {
+            "title": "Project: Calculator with Functions",
+            "description": "Build a modular calculator program",
+            "type": "project",
+            "estimatedMinutes": 120,
+            "difficulty": "medium"
+          }
+        ]
+      },
+      {
+        "title": "Week 5-6: Object-Oriented Programming",
+        "description": "Learn classes, objects, and inheritance",
+        "order": 3,
+        "tasks": [
+          {
+            "title": "Classes and Objects",
+            "description": "Create classes, attributes, and methods",
+            "type": "practice",
+            "estimatedMinutes": 90,
+            "difficulty": "medium"
+          },
+          {
+            "title": "Inheritance and Polymorphism",
+            "description": "Understand OOP principles",
+            "type": "practice",
+            "estimatedMinutes": 90,
+            "difficulty": "hard"
+          },
+          {
+            "title": "Project: Student Management System",
+            "description": "Build a CLI app with classes and file I/O",
+            "type": "project",
+            "estimatedMinutes": 180,
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "title": "Week 7-8: Final Project",
+        "description": "Build a complete application",
+        "order": 4,
+        "tasks": [
+          {
+            "title": "Choose Your Project",
+            "description": "Select: Todo CLI, Weather App, or Quiz Game",
+            "type": "project",
+            "estimatedMinutes": 30,
+            "difficulty": "easy"
+          },
+          {
+            "title": "Build and Test",
+            "description": "Implement features, handle errors, test edge cases",
+            "type": "project",
+            "estimatedMinutes": 300,
+            "difficulty": "hard"
+          },
+          {
+            "title": "Document and Deploy",
+            "description": "Write README, add comments, share on GitHub",
+            "type": "project",
+            "estimatedMinutes": 90,
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  },
+  "author": "AI Learning Assistant",
+  "isPublic": true
+}

@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+client/node_modules/
+package-lock.json
+client/package-lock.json
+
+# Build outputs
+dist/
+build/
+client/dist/
+client/build/
+
+# Environment variables - NEVER COMMIT!
+.env
+.env.local
+.env.production
+.env.development
+*.env.backup
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+dev.db
+prod.db
+data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Prisma
+prisma/migrations/
+!prisma/migrations/.gitkeep
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker
+.dockerignore
+
+# Secrets and keys - CRITICAL!
+*secret*
+*key*.txt
+*token*.txt
+credentials.json
+service-account.json
+
+# User data
+uploads/
+user_data/
